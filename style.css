@@ -1,0 +1,87 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./image/flame_chaser.png');
+    background-size: cover;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img_title{
+    width: 50%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(35, 35, 35);
+    width: 40%;
+    border-radius: 5px;
+}
+
+.login_title{
+    color: #cecfd1;
+}
+
+.input{
+    width: 70%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.login_button{
+    margin: 20px;
+    height: 50px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.other_login{
+    color: #505561;
+    font-size: 20px;
+}
+
+.login_box, .login, .other_login{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    color: #76777f;
+    width: 35%;
+    font-size: 17px;
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.next-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#next{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
