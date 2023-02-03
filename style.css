@@ -1,96 +1,102 @@
-html, body{
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+    font-family: Microsoft YaHei;
+    /*font-family: 'Nanum Gothic', sans-serif;*/
+}
+
+html, body {
     margin: 0;
     padding: 0;
     background-image: url('./image/flame_chaser.png');
     background-size: cover;
 }
 
-.body{
+.body {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
 
-.img_title{
+.img_title {
     width: 50%;
 }
 
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.login_box{
+.login_box {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     background-color: rgb(35, 35, 35);
-    width: 40%;
+    width: 35%;
     border-radius: 5px;
 }
 
-.login_title{
+.login_title {
     color: #cecfd1;
 }
 
-.input{
+.input {
     width: 70%;
     height: 50px;
     margin: 15px;
+    font-size: 18px;
     border-radius: 5px;
 }
 
-.login_button{
+.login_button {
+    width: 75%;
+    height: 60px;
     margin: 20px;
-    height: 50px;
-    width: 70%;
+    font-size: 20px;
     border-radius: 5px;
-    background-color: rgb(0, 174, 255);
+    background-color: #556ad0;
 }
 
-.login_button:hover{
-    background-color: blue;
+.login_button:hover {
+    background-color: rgb(51, 0, 255);
 }
 
-.login_button:active{
+.login_button:active {
     background-color: rgba(0, 81, 255, 0.953);
 }
 
-.other_login{
-    color: #505561;
-    font-size: 20px;
-}
-
-.login_box, .login, .other_login{
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.text{
+.text {
     color: #76777f;
     width: 35%;
-    font-size: 17px;
+    font-size: 15px;
 }
 
-.img{
-    height: 50px;
-    width: 50px;
-    margin: 20px;
-}
-
-.next-container{
+.next-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#next{
+#next {
     width: 70%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
+}
+
+.other_login {
+    color: #505561;
+    font-size: 20px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
 }

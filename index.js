@@ -4,15 +4,15 @@ function getRndInteger(min, max) {
 let random = getRndInteger(1,100);
 let input;
 do {
-    input = parseInt(prompt("Doan di em"));
+    input = parseInt(prompt("Moi ban doan so"));
     if(input < random){
-        alert("May can so lon hon, MAY NGU");
+        alert("Ban can so lon hon");
     }
     else if(input > random){
-        alert("May can so nho hon, MAY NGU");
+        alert("Ban can so nho hon");
     }
     else{
-        alert("Dung roi, MAY GAY");
+        alert("CHUC MUNG BAN DA DOAN DUNG !!");
         console.log("Ket qua la " + random);
     }
 } while (input !== random);
