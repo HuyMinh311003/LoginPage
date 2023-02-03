@@ -4,7 +4,7 @@ function getRndInteger(min, max) {
 let random = getRndInteger(1,100);
 let input;
 do {
-    input = parseInt(prompt("Moi ban doan so"));
+    input = parseInt(prompt("Moi ban doan so, pham vi tu 1 toi 100"));
     if(input < random){
         alert("Ban can so lon hon");
     }
